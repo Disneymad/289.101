@@ -1,9 +1,10 @@
 div{
-    outline: 1px solid black;
+    outline: 1px solid pink;
 }
 
 body{
     background-color: #441e13;
+    
 }
 
 .header{
@@ -13,6 +14,8 @@ body{
 .logoarea{
     width: 100%;
     float: left;
+    padding-top: 40px;
+    height: 100px;
 }
 .menu{
     width: 100%;
@@ -26,6 +29,9 @@ body{
     color: white;
     font-size: 2.5rem;
     font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    
     
 }
 
@@ -33,4 +39,6 @@ body{
     width: 700px;
     height: 100px;
     float: left;
+    color: #91665d;
+    
 }
