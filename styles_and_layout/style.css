@@ -23,6 +23,8 @@
 }
 
 .boxparent{
-    border: 1px;
+    border: 1px solid black;
     float: left;
+    width: 350px;
+    padding: 10px;
 }
