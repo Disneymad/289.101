@@ -18,6 +18,11 @@
     width: 200px;
     height: 200px;
     background-color: blue;
-    float: right;
+    float: left;
 
+}
+
+.boxparent{
+    border: 1px;
+    float: left;
 }
