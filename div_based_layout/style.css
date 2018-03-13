@@ -57,7 +57,7 @@ body{
     float: left;
     font-family: sans-serif;
     padding: 6px 20px;
-    color: #ffffff;
+    color: white;
 }
 
 .nav li:last-child {
@@ -77,22 +77,28 @@ body{
 }
 
 .paperplaneimage{
-    width:212px;
+    width:200px;
     height: 212px;
     float: left;
 }
 
+.info{
+    padding-top: 40px;
+}
+
 .infoheading{
-    font-size: 1.0rem;
+    font-size: 2.0rem;
     color:white;
     float: left;
+    padding-left: 20px;
 }
 
 .infoparagraph{
     color: white;
     font-family: sans-serif;
     float: left;
-/*    font-size: */
+    font-size: 0.9rem;
+    padding-left: 20px;
 }
 
 .secondnav{
@@ -104,10 +110,17 @@ body{
 }
 
 .secondnav li{
-    border-right: 1px solid #D4B364;
+    border-bottom: 1px solid white;
     display: block;
     float: left;
     font-family: sans-serif;
     padding: 6px 20px;
-    color: #ffffff;
+    color: white;
+}
+
+.article{
+    height: 610px;
+    width: 730px;
+    background-color: #dbd8c5;
+    float: left;
 }
