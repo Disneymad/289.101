@@ -23,7 +23,7 @@ body{
 }
 
 .logo{
-    width: 200px;
+    width: 205px;
     height: 100px;
     float: left;
     color: white;
@@ -31,14 +31,14 @@ body{
     font-weight: bold;
     margin-top: auto;
     margin-bottom: auto;
-    
-    
 }
 
 .slogan{
-    width: 700px;
+    width: 380px;
     height: 100px;
     float: left;
     color: #91665d;
+/*    padding-top: 25px;*/
+    margin-top: 18px;
     
 }
