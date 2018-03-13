@@ -41,7 +41,7 @@ body{
 }
 
 .nav{
-    width: 100%;
+    width: 920px;
     float: left;
     background-color: #39180f;
     height: 62px;
@@ -62,4 +62,52 @@ body{
 
 .nav li:last-child {
     border-right: none;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.pageintro{
+    width: 920px;
+    height: 212px;
+    background-color: #87a984;
+    color: white;
+    float: left;
+}
+
+.paperplaneimage{
+    width:212px;
+    height: 212px;
+    float: left;
+}
+
+.infoheading{
+    font-size: 1.0rem;
+    color:white;
+    float: left;
+}
+
+.infoparagraph{
+    color: white;
+    font-family: sans-serif;
+    float: left;
+/*    font-size: */
+}
+
+.secondnav{
+    overflow: hidden;
+    width: 200px;
+    float: left;
+    background-color: #96afac;
+    height: 610px;
+}
+
+.secondnav li{
+    border-right: 1px solid #D4B364;
+    display: block;
+    float: left;
+    font-family: sans-serif;
+    padding: 6px 20px;
+    color: #ffffff;
 }
