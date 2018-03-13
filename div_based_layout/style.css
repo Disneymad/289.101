@@ -1,10 +1,9 @@
 div{
-    outline: 1px solid pink;
+/*    outline: 1px solid pink;*/
 }
 
 body{
     background-color: #441e13;
-    
 }
 
 .header{
@@ -15,18 +14,19 @@ body{
     width: 100%;
     float: left;
     padding-top: 40px;
-    height: 100px;
+    height: 95px;
 }
 
 .logo{
     width: 205px;
-    height: 100px;
+    height: 95;
     float: left;
     color: white;
     font-size: 2.5rem;
     font-weight: bold;
     margin-top: auto;
     margin-bottom: auto;
+    font-family: monospace;
 }
 
 .slogan{
@@ -41,7 +41,7 @@ body{
 }
 
 .nav{
-    width: 920px;
+    width: 930px;
     float: left;
     background-color: #39180f;
     height: 62px;
@@ -69,35 +69,41 @@ body{
 }
 
 .pageintro{
-    width: 920px;
+    width: 930px;
     height: 212px;
     background-color: #87a984;
     color: white;
     float: left;
+    margin-bottom: 20px;
 }
 
 .paperplaneimage{
-    width:200px;
+    width: 200px;
     height: 212px;
     float: left;
+    background-image:url(paperplane.jpg)
 }
+
 
 .info{
     padding-top: 40px;
 }
 
 .infoheading{
-    font-size: 2.0rem;
+    font-size: 3.0rem;
     color:white;
     padding-left: 30px;
+    font-family: monospace;
+    font-weight: bold;
 }
 
 .infoparagraph{
     color: white;
     font-family: sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.0rem;
     padding-left:  30px;
     padding-top: 10px;
+    padding-right: 200px
 }
 
 .secondnav{
@@ -122,6 +128,7 @@ body{
     width: 730px;
     background-color: #dbd8c5;
     float: left;
+    font-family: sans-serif;
 /*
     padding-left: 20px;
     padding-top: 20px;
@@ -131,11 +138,14 @@ body{
 .articleheading{
     font-size: 1.5rem;
     color: #506e79;
-    padding: 20px 20px;
+    padding-top: 45px;
+    padding-left: 45px;
 }
 
 .articleparagraph{
     font-size: 0.9rem;
     font-family: sans-serif;
-    padding: 10px 20px;
+    padding-left: 45px;
+    padding-top: 20px;
+    padding-right: 45px;
 }
