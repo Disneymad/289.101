@@ -17,10 +17,6 @@ body{
     padding-top: 40px;
     height: 100px;
 }
-.menu{
-    width: 100%;
-    float: left;
-}
 
 .logo{
     width: 205px;
@@ -40,5 +36,30 @@ body{
     color: #91665d;
 /*    padding-top: 25px;*/
     margin-top: 18px;
-    
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}
+
+.nav{
+    width: 100%;
+    float: left;
+    background-color: #39180f;
+    height: 62px;
+}
+
+.nav ol{
+    padding: 18px 10px; 
+}
+
+.nav li{
+    border-right: 1px solid #D4B364;
+    display: block;
+    float: left;
+    font-family: sans-serif;
+    padding: 6px 20px;
+    color: #ffffff;
+}
+
+.nav li:last-child {
+    border-right: none;
 }
