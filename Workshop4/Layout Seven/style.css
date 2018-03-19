@@ -1,0 +1,156 @@
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+    outline: 1px solid lime;
+}
+
+.header{
+    width: 900px;
+    height: 200px;
+    background-color: blue;
+}
+
+.box1{
+    height: 150px;
+    width: 275px;
+    background-color: yellow;
+    float: left;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.box2{
+    height: 150px;
+    width: 575px;
+    float: left;
+    background-color: yellow;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.content1{
+    height: 500px;
+    width: 900px;
+    background-color: green;
+    float: left;
+}
+
+.content2{
+    height: 400px;
+    width: 900px;
+    background-color: red;
+    float: left;
+}
+
+.box3{
+    height: 100px;
+    width: 875px;
+    background-color: yellow;
+    float: left;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.box4{
+    height: 240px;
+    width: 284px;
+    background-color: yellow;
+    float: left;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+.content3{
+    height: 800px;
+    width: 900px;
+    float: left;
+    background-color: blue;
+}
+
+.box5{
+    height: 100px;
+    width: 880px;
+    float: left;
+    background-color: yellow;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.box6{
+    height: 200px;
+    width: 212px;
+    float: left;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.content4{
+    background-color: green;
+    float: left;
+    height: 700px;
+    width: 900px;
+}
+
+.box7{
+    width: 875px;
+    height: 200px;
+    background-color: yellow;
+    float: left;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.box8{
+    float: left;
+    background-color: yellow;
+    height: 460px;
+    width: 285px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.content5{
+    background-color: red;
+    height: 600px;
+    width: 900px;
+    float: left;
+}
+
+.box9{
+    height: 120px;
+    width: 875px;
+    background-color: yellow;
+    float: left;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.box10{
+    height: 440px;
+    width: 575px;
+    background-color: yellow;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.box11{
+    height: 250px;
+    width: 290px;
+    background-color: yellow;
+    float: right;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+
+.footnote{
+    height: 150px;
+    width: 900px;
+    float: left;
+    background-color: blue;
+}
