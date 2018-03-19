@@ -1,8 +1,7 @@
 .container{
-    width: 900px;
+    width: 920px;
     margin-left: auto;
     margin-right: auto;
-    background-color: red;
 }
 
 div{
@@ -10,31 +9,39 @@ div{
 }
 
 .header{
-    width:900px;
+    width:920px;
     height:200px;
     background-color: blue;
 }
 
-.background{
-    width: 920px;
-    height: 500px;
-    background-color: red;
-    float: left;
-}
 
 .content{
-    width: 350px;
-    height: 350px;
-    background-color: yellow;
-/*    float: left;*/
-    margin-left: auto;
-    margin-right: auto;
-    
-    
+    background-color: red;
+    height: 500px;
+    width: 920px
 }
 
+.box{
+    width: 430px;
+    height: 460px;
+    background-color: yellow;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/*
+.content{
+    width: 350px;
+    height: 400px;
+    background-color: yellow;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+*/
+    
+
 .footnote{
-    width: 900px;
+    width: 920px;
     height: 150px;
     background-color: green;
     float: left;
