@@ -1,0 +1,47 @@
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+    outline: 1px solid lime;
+}
+
+.header{
+    width: 450px;
+    height: 200px;
+    float: left;
+    background-color: blue;
+}
+
+.menu{
+    width: 900px;
+    height: 150px;
+    background-color: green;
+    float: left;
+}
+
+.content{
+    height: 780px;
+    width: 900px;
+    background-color: red;
+}
+
+.box1{
+    height: 210px;
+    width: 210px;
+    background-color: yellow;
+    margin-left: 12px;
+    margin-top: 10px;
+    float: left
+}
+
+.box2{
+    height: 190px;
+    width: 432px;
+    background-color: yellow;
+    margin-left: 12px;
+    margin-top: 10px;
+    float: left
+}
