@@ -1,0 +1,26 @@
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black;
+}
+
+.header{
+    width: 900px;
+    height: 200px;
+    background-color: blue;
+}
+
+.column{
+    width: 300px;
+    height: 500px;
+    background-color: red;
+    float: left;
+}
+
+.footnote{
+    width: 900px;
+    height: 150px;
+    background-color: green;
+    float: left;
+}
