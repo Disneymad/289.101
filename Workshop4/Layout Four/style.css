@@ -1,0 +1,46 @@
+.container{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+    outline: 1px solid lime;
+}
+
+.header{
+    width: 920px;
+    height: 200px;
+    background-color: blue;
+}
+
+.content1{
+    height: 200px;
+    width: 920px;
+    background-color: green;
+}
+
+.box1{
+    height: 150px;
+    width: 430px;
+    float: left;
+    background-color: yellow;
+    margin-top: 25px;
+    margin-left: 20px
+}
+
+.content2{
+    width: 920px;
+    height: 500px;
+    background-color: red;
+}
+
+.box2{
+    width: 430px;
+    height: 460px;
+    float: left;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
