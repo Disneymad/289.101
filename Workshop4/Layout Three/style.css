@@ -2,6 +2,7 @@
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+    background-color: red;
 }
 
 div{
@@ -9,16 +10,27 @@ div{
 }
 
 .header{
-    width: 900px;
-    height: 200px;
+    width:900px;
+    height:200px;
     background-color: blue;
 }
 
-.column{
-    width: 300px;
+.background{
+    width: 920px;
     height: 500px;
     background-color: red;
     float: left;
+}
+
+.content{
+    width: 350px;
+    height: 350px;
+    background-color: yellow;
+/*    float: left;*/
+    margin-left: auto;
+    margin-right: auto;
+    
+    
 }
 
 .footnote{
