@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 body{
     background-color: #f2f2f2;
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 div{
@@ -24,10 +27,37 @@ div{
     float: left;
     margin-top: 35px;
     font-size: 1.4rem;
+    
 }
 
 .links{
     float: right;
     margin-top: 40px;
     font-size: 0.75rem;
+    color: #4B4E61;
 }
+
+/*descendant combinator*/
+.links a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.salmon{
+    color: #f06c64;
+}
+
+.banner{
+    background-color: #f06c64;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.banner img{
+    max-width: 780px;
+    width: 90%;
+}
+
+
