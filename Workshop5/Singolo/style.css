@@ -45,6 +45,10 @@ div{
     padding-right: 10px;
 }
 
+.links a:hover{
+    color: #f06c64;
+}
+
 .salmon{
     color: #f06c64;
 }
@@ -60,4 +64,25 @@ div{
     width: 90%;
 }
 
+.services_content{
+    margin: 70px 40px;
+    color: #767e9e;
+    
+}
+
+h1{
+    font-weight: bold;
+    color: #666d89;
+}
+
+.columns{
+    margin: 50px 30px;
+}
+
+.column{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
 
