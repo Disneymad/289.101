@@ -76,13 +76,16 @@ h1{
 }
 
 .columns{
-    margin: 50px 30px;
+    text-align: center;
 }
 
 .column{
     float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.portfolio_content{
+    background-color: #2d303a;
 }
 
