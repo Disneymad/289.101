@@ -162,3 +162,22 @@ div{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.contact_content{
+    background-color: #f06c64;
+    height: 800px;
+}
+
+.contact_heading{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #f0d8d9;
+    padding-left: 40px;
+    padding-top: 65px;
+}
+
+.contact_paragraph{
+    color: #f0d8d9;
+    padding-left: 40px;
+}
+
