@@ -7,7 +7,7 @@ body{
 }
 
 div{
-    outline: 1px solid lime;
+/*    outline: 1px solid lime;*/
 }
 
 .header{
@@ -66,26 +66,99 @@ div{
 
 .services_content{
     margin: 70px 40px;
-    color: #767e9e;
     
 }
 
-h1{
-    font-weight: bold;
+.service_heading{
+    font-weight: bolder;
+    color: #666d89;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
     color: #666d89;
 }
 
+.service_paragraph{
+    color: #666d89;
+    font-size: 1rem;
+    padding: 30px 0;
+    font-weight: 100;
+}
+
 .columns{
-    text-align: center;
+/*    text-align: center;*/
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .column{
     float: left;
     padding-left: 30px;
     padding-right: 30px;
+    max-width: 300px;
 }
 
 .portfolio_content{
     background-color: #2d303a;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.portfolio_heading{
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 1.5rem;
+    color: #666d89;
+}
+
+.portfolio_paragraph{
+    color: #666d89;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.portfolio_nav{
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.portfolio_nav a{
+    color: #666d89;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-bottom: 20px;
+/*    border-style: ;*/
+}
+
+.portfolio{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.portfolio_nav a:hover{
+    color: white;
+}
+
+.about_heading{
+    color: #666d89;
+    font-size: 1.5rem;
+    padding-top: 65px;
+    padding-left: 40px;
+}
+
+.about_paragraph{
+    color: #666d89;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.about_us{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
