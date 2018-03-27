@@ -94,7 +94,6 @@ div{
 .column{
     float: left;
     padding-left: 30px;
-    padding-right: 30px;
     max-width: 300px;
 }
 
@@ -135,11 +134,22 @@ div{
 .portfolio{
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #2d303a;
+    height: 700px;
 }
 
 .portfolio_nav a:hover{
     color: white;
+}
+
+.portfolio_images{
+    padding-top: 20px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .about_heading{
@@ -158,9 +168,12 @@ div{
 .about_us{
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.about_images{
+    
 }
 
 .contact_content{
