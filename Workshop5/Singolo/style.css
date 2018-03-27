@@ -152,6 +152,11 @@ div{
     padding-right: 10px;
 }
 
+.about_us_content{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .about_heading{
     color: #666d89;
     font-size: 1.5rem;
@@ -170,10 +175,13 @@ div{
     margin-right: auto;
     padding-top: 30px;
     padding-bottom: 30px;
+    height: 500px;
 }
 
 .about_images{
-    
+    padding-top: 20px;
+    float: left;
+    padding-left: 40px;
 }
 
 .contact_content{
@@ -198,29 +206,52 @@ div{
     width: 700px;
     float: left;
     padding-left: 40px;
+    padding-top: 40px;
 }
 
 .namebox{
-    width:650px;
+    width: 620px;
     height: 40px;
     background-color: #d6564f;
-    
 }
 
-.containter{
-    width: 200px;
+.emailbox{
+    width: 620px;
+    height: 40px;
+    background-color: #d6564f; 
+    margin-top: 20px;
+}
+
+.subjectbox{
+    width: 620px;
+    height: 40px;
+    background-color: #d6564f; 
+    margin-top: 20px; 
+}
+
+.messagebox{
+    width: 620px;
+    height: 200px;
+    background-color: #d6564f; 
+    margin-top: 20px; 
+}
+
+.container{
+    width: 300px;
     float: right;
+    padding-right: 40px;
+    padding-top: 40px;
 }
 
-.second_heading{
+.second_contact_heading{
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: #f0d8d9;
 /*    float: right;*/
 }
 
-.second_paragraph{
+.second_contact_paragraph{
     color: #f0d8d9;
-    font-size: 0.75rem;
+    font-size: 1rem;
 /*    float: right;*/
 }
