@@ -214,6 +214,8 @@ div{
     width: 620px;
     height: 40px;
     background-color: #d6564f;
+    color: #f06c64;
+    font-size: 1rem;
 }
 
 .emailbox{
@@ -221,6 +223,8 @@ div{
     height: 40px;
     background-color: #d6564f; 
     margin-top: 20px;
+    color: #f06c64;
+    font-size: 1rem;
 }
 
 .subjectbox{
@@ -228,6 +232,8 @@ div{
     height: 40px;
     background-color: #d6564f; 
     margin-top: 20px; 
+    color: #f06c64;
+    font-size: 1rem;
 }
 
 .messagebox{
@@ -235,6 +241,14 @@ div{
     height: 200px;
     background-color: #d6564f; 
     margin-top: 20px; 
+    color: #f06c64;
+    font-size: 1rem;
+}
+
+::placeholder{
+    color: #f06c64;
+    font-size: 1rem;
+    padding-left: 5px;
 }
 
 .container{
@@ -279,3 +293,4 @@ div{
     padding-right: 40px;
     padding-top: 30px;
 }
+
