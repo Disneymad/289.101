@@ -186,7 +186,7 @@ div{
 
 .contact_content{
     background-color: #f06c64;
-    height: 800px;
+    height: 600px;
 }
 
 .contact_heading{
@@ -203,10 +203,11 @@ div{
 }
 
 .info{
-    width: 700px;
+    width: 630px;
     float: left;
     padding-left: 40px;
     padding-top: 40px;
+    color: #f06c64;
 }
 
 .namebox{
@@ -237,7 +238,7 @@ div{
 }
 
 .container{
-    width: 300px;
+    width: 350px;
     float: right;
     padding-right: 40px;
     padding-top: 40px;
@@ -247,11 +248,34 @@ div{
     font-weight: bolder;
     font-size: 1.4rem;
     color: #f0d8d9;
-/*    float: right;*/
+    float: left;
 }
 
 .second_contact_paragraph{
     color: #f0d8d9;
     font-size: 1rem;
-/*    float: right;*/
+    float: left;
+    padding-top: 10px;
+}
+
+.details{
+    float: left;
+    margin-top: 20px;
+}
+
+.footer{
+    height: 100px;
+    background-color: #2d303a;
+}
+
+.copyright{
+    float: left;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.media{
+    float: right;
+    padding-right: 40px;
+    padding-top: 30px;
 }
