@@ -70,7 +70,7 @@ a{
 }
 
 a:hover{
-    color: #ceaed4;
+    color: #b7ebf5;
     text-decoration: none;
 }
 
@@ -126,8 +126,13 @@ a:hover{
     margin-left: 150px;
     margin-top: 100px;
     background-color: white;
+}
+
+.comingsoon{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .footer{
