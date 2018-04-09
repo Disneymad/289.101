@@ -128,13 +128,6 @@ a:hover{
     background-color: white;
 }
 
-.comingsoon{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
-    padding-left: 20px;
-    padding-top: 20px;
-}
-
 .footer{
     height: 100px;
     width: 1250px;
@@ -275,6 +268,21 @@ a:hover{
 
 .inkbox{
     height: 400px;
+    width: 400px;
+    border: 10px solid black;
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.fairytalebody{
+    height: 2700px;
+    background-image: url(pattern5.jpg);
+}
+
+.fairytalebox{
+    height: 600px;
     width: 400px;
     border: 10px solid black;
     float: left;
