@@ -1,31 +1,65 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
-
-div{
-/*    outline: 1px solid black;*/
+.headimage{
+    background-image: url(repeatforpattern.jpg);
+    height: 550px;
 }
 
-
+.header{
+    height: 160px;
+}
 
 .doodle{
     font-family: 'Gloria Hallelujah', cursive;
-    font-size: 4rem;
-    margin-top: 10px;
-    margin-left: 200px;
-    float: left;
-}
-
-
-
-body{
-/*    background-color: #f4edc2;*/
-    background-image: url(background1.jpg);
-}
-
-.homepagecontent{
-    height: 700px;
+    font-size: 5rem;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    border: 10px solid black;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
+}
+
+.menu_collections{
+    float: left;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3rem;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 5px solid black;
+    height: 200px;
+    width: 408px;
+    text-align: center;
+    background-color: #b9e8e1;
+}
+
+.menu_recent{
+    float: left;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3rem;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    height: 200px;
+    width: 405px;
+    text-align: center;
+}
+
+.menu_about{
+    float: left;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3rem;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 5px solid black;
+    border-right: 10px solid black;
+    height: 200px;
+    width: 408px;
+    text-align: center;
+    background-color: #f8b7d3;
 }
 
