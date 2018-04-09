@@ -27,13 +27,14 @@ div{
 
 body{
 /*    background-color: #f4edc2;*/
-    background-color: #69B261;
+/*    background-image: url(background1.jpg);*/
 }
 
 .homepagecontent{
     height: 700px;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(background1.jpg);
 }
 
 .homebox1{
