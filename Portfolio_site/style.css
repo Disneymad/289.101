@@ -277,7 +277,7 @@ a:hover{
 }
 
 .inkbody{
-    height: 2000px;
+    height: 3200px;
     background-image: url(pattern5.jpg);
 }
 
@@ -292,7 +292,7 @@ a:hover{
 }
 
 .fairytalebody{
-    height: 2700px;
+    height: 3400px;
     background-image: url(pattern5.jpg);
 }
 
@@ -305,3 +305,9 @@ a:hover{
     margin-top: 100px;
     background-color: white;
 }
+
+.pencilbody{
+    height: 4000px;
+    background-image: url(pattern5.jpg);
+}
+
