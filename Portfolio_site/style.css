@@ -64,6 +64,21 @@
     background-color: #f8b7d3;
 }
 
+.homepagecontent a:hover{
+    color: #ceaed4;
+    text-decoration: none;
+}
+
+.recentheader a:hover{
+    color: #ceaed4;
+    text-decoration: none;
+}
+
+.aboutheader a:hover{
+    color: #f8b7d3;
+    text-decoration: none;
+}
+
 a{
     color: black;
     text-decoration: none;
