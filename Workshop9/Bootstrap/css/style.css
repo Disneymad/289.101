@@ -22,3 +22,32 @@ body{
     height: 80px;
 }
 
+.green2{
+    background-color: chartreuse;
+    height: 200px;
+}
+
+.orange2{
+    background-color: orange;
+    height: 500px;
+}
+
+.grey2{
+    background-color: grey;
+    height: 100px;
+/*    width: 150px;*/
+/*    margin: 20px;*/
+}
+
+.pink{
+    background-color: pink;
+    height: 100px;
+/*    margin: 20px;*/
+    
+}
+
+.red{
+    background-color: darkred;
+    height: 300px;
+}
+
