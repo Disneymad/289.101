@@ -19,22 +19,35 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.stark_logo{
-    
+a{
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+/*.stark_logo{ 
 }
 
 .avengers_logo{
-    
-}
+}*/
 
 .banner{
 /*    background-image: url(img/bannerimage.jpg);*/
+    position: absolute;
     background-color: skyblue;
     height: 400px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .title{
     font-family: 'Roboto', sans-serif;
+    font-Style: Italic;
+    Font-Size: 2rem;
+    text-align: Center;
+    margin-bottom: 10px;
 }
 
 .text{
