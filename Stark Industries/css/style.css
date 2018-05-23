@@ -15,24 +15,27 @@
 .menu{
     height: 50px;
     margin: auto;
-    background-color: dodgerblue;
+    background-color: #6EBBFF;
     font-family: 'Open Sans', sans-serif;
     padding-top: 10px;
+    text-align: center;
 }
 
 a{
     color: black;
+    text-align: center;
 }
 
 a:hover{
     color: white;
 }
 
-/*.stark_logo{ 
+.stark_logo{
+    padding-top: 20px;
 }
 
 .avengers_logo{
-}*/
+}
 
 .banner{
 /*    background-image: url(img/bannerimage.jpg);*/
@@ -68,9 +71,10 @@ a:hover{
     height: 300px;
     background-color: skyblue;
 /*    background-image: */
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .innovation_title{
