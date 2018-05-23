@@ -38,11 +38,11 @@ a:hover{
 }
 
 .banner{
-/*    background-image: url(img/bannerimage.jpg);*/
-    background-color: skyblue;
+    background-image: url("/img/bannerimage_edit.jpg");
+/*    background-color: skyblue;*/
     height: 400px;
     margin-bottom: 30px;
-    text-align: center;
+/*    text-align: center;*/
 }
 
 .title{
@@ -68,13 +68,30 @@ a:hover{
 }
 
 .product{
-    height: 300px;
-    background-color: skyblue;
+    width: 400px;
+    height: 280px;
+/*    background-color: skyblue;*/
 /*    background-image: */
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+.crops{
+    background-image: url("/img/unsplash-crops-edit.jpg");
+}
+
+.security{
+    background-image: url("/img/security_edit.jpg");
+}
+
+.ai{
+    background-image: url("/img/ai_edit.jpg");
+}
+
+.digital_display{
+    background-image: url("/img/digital_display_edit.jpg");
 }
 
 .innovation_title{
@@ -99,5 +116,12 @@ a:hover{
     bottom: 200px; 
 }*/
 
-
+.contact_title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
 
