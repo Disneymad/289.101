@@ -8,7 +8,7 @@
 
 .logos{
     height: 100px;
-    margin: auto;
+/*    margin: auto;*/
     background-color: #333333;
 }
 
@@ -16,8 +16,27 @@
     height: 50px;
     margin: auto;
     background-color: dodgerblue;
+    font-family: 'Open Sans', sans-serif;
 }
 
+.stark_logo{
+    
+}
 
+.avengers_logo{
+    
+}
 
+.banner{
+/*    background-image: url(img/bannerimage.jpg);*/
+    background-color: skyblue;
+    height: 400px;
+}
 
+.title{
+    font-family: 'Roboto', sans-serif;
+}
+
+.text{
+    font-family: 'Open Sans', sans-serif;
+}

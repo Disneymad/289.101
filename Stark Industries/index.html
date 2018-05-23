@@ -2,43 +2,71 @@
 
 <html>
     <head>
-        <title>Stark Industries | Home</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel ="stylesheet" href="css/bootstrap.min.css">
+        <!-- My stylesheet, should be after bootstrap so it overwrites what ever we want -->
         <link rel="stylesheet" href="css/style.css">
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+        
+        <title>Stark Industries | Home</title>
+        
     </head>
     
     <body>
         <div class="container">
             <!--logos-->
-            <div class="logos">
-                <div class="stark_logo"></div>
-                <div class="avengers_logo"></div>
+            <div class="row logos">
+                <div class="col-sm-12 col-md-10 stark_logo"></div>
+                <div class="col-md-2 avengers_logo"></div>
             </div>
 
             <!--menu-->
-            <div class="menu">
-                <div class="links">
-                    <a href="index.html">HOME</a>
-                    <!--&bull;-->
+            <div class="row">
+                <div class="col-lg-3 d-none d-lg-block d-xl-none d-xl-block menu"></div>
+                <div class="col-sm-4 col-lg-2 menu">
                     <a href="products.html">PRODUCTS</a>
                     <!--&bull;-->
+                </div>
+                <div class="col-sm-4 col-lg-2 menu">
                     <a href="innovation.html">INNOVATION</a>
                     <!--&bull;-->
+                </div>
+                <div class="col-sm-4 col-lg-2 menu">
                     <a href="contact.html">CONTACT</a>
                 </div>
+                <div class="col-lg-3 d-none d-lg-block d-xl-block menu"></div>
+                
             </div>
 
             <!--Banner-->
-            <div class="banner">
+            <div class="row">
+                <div class="col-sm-6 col-md-12 banner">
+<!--                    <img src="img/bannerimage.jpg">-->
+                </div>
             </div>
+            
 
             <!--content-->
-            <div class="home-content">
-                <div>title</div>
-                <div>text</div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-sm-12 title">WELCOME TO STARK INDUSTRIES</div>
             </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            </div>
+            <div class="col-md-3"></div>
         
         </div>
         
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- bootstrap js after jquery -->
+        <script src="js/bootstrap.min.js"></script>
     
     
     </body>
