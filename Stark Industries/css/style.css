@@ -17,6 +17,7 @@
     margin: auto;
     background-color: dodgerblue;
     font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
 }
 
 a{
@@ -35,7 +36,6 @@ a:hover{
 
 .banner{
 /*    background-image: url(img/bannerimage.jpg);*/
-    position: absolute;
     background-color: skyblue;
     height: 400px;
     margin-bottom: 30px;
@@ -52,4 +52,48 @@ a:hover{
 
 .text{
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
 }
+
+.products_title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product{
+    height: 300px;
+    background-color: skyblue;
+/*    background-image: */
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.innovation_title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.innovation{
+    height: 300px;
+    background-color: skyblue;
+/*    background-image: */
+}
+
+
+/*.subtitle{
+    position: absolute;
+    bottom: 200px; 
+}*/
+
+
+
