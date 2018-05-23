@@ -104,17 +104,35 @@ a:hover{
     font-family: 'Roboto', sans-serif;
 }
 
-.innovation{
-    height: 300px;
-    background-color: skyblue;
+/*.innovation{*/
+/*    height: 300px;*/
+/*    background-color: skyblue;*/
 /*    background-image: */
 }
 
+.innovation_tech{
+    height: 300px;
+    background-image: url("/img/tech_edit.jpg");
+}
 
-/*.subtitle{
+.innovation_project{
+    height: 300px;
+    background-image: url("/img/project_funding_edit.jpg");
+}
+
+.innovation_problem{
+    height: 300px;
+    background-image: url("/img/problem_solving_edit.jpg");
+}
+
+/*
+.subtitle{
     position: absolute;
     bottom: 200px; 
-}*/
+    background-color: white;
+    opacity: 90%;
+}
+*/
 
 .contact_title{
     text-align: center;
@@ -125,3 +143,38 @@ a:hover{
     font-family: 'Roboto', sans-serif;
 }
 
+.namebox{
+    height: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.emailbox{
+    height: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.subjectbox{
+    height: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.messagebox{
+    height: 245px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
