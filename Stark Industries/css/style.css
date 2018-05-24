@@ -78,6 +78,17 @@ a:hover{
     margin-bottom: 10px;
 }
 
+.product_title{
+    background-color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+}
+
 .crops{
     background-image: url("/img/unsplash-crops-edit.jpg");
 }
@@ -104,11 +115,6 @@ a:hover{
     font-family: 'Roboto', sans-serif;
 }
 
-/*.innovation{*/
-/*    height: 300px;*/
-/*    background-color: skyblue;*/
-/*    background-image: */
-}
 
 .innovation_tech{
     height: 300px;
@@ -125,14 +131,19 @@ a:hover{
     background-image: url("/img/problem_solving_edit.jpg");
 }
 
-/*
-.subtitle{
+.sub_title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.7);;
+/*    width: 100%;*/
     position: absolute;
-    bottom: 200px; 
-    background-color: white;
-    opacity: 90%;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    font-size: 1.5rem;
 }
-*/
+
 
 .contact_title{
     text-align: center;
