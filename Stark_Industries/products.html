@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/style.css">
         
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+       
         <link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.min.css">
         
         <title>Stark Industries | Products</title>
@@ -49,17 +50,16 @@
                 <div class="col-lg-3 d-none d-lg-block d-xl-block menu"></div>
             </div>
         
-        
-        
+        <!--content-->
         <div class="container">
-            <!--content-->
+            
             <div class="row">
                 <div class="col-sm-12 products_title">
                     PRODUCTS
                 </div>
             </div>
             
-<!--            note to self change out images for width repsonsiveness-->
+<!--note to self change out images for width repsonsiveness-->
             
             <div class="row">
                 <div class="col-md-2"></div>
@@ -73,7 +73,9 @@
                 </div>
                 <div class="col-sm-12 col-md-10 col-lg-4 product security">
                     <div class="col-sm-12 product_title">
-                        SECURITY
+                        <a data-fancybox data-src="#fancy_security" href="javascript:;">
+                            SECURITY
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-2"></div>
@@ -82,34 +84,85 @@
                 <div class="col-md-2"></div>
                 <div class="col-sm-12 col-md-10 col-lg-4 product ai">
                     <div class="col-sm-12 product_title">
-                        ARTIFICIAL INTELLIGENCE
+                        <a data-fancybox data-src="#fancy_ai" href="javascript:;">
+                            ARTIFICIAL INTELLIGENCE
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-10 col-lg-4 product digital_display">
                     <div class="col-sm-12 product_title">
-                        DIGITAL DISPLAYS
+                        <a data-fancybox data-src="#fancy_digital" href="javascript:;">
+                            DIGITAL DISPLAYS
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-2"></div>
             </div>
+            
             <!--fancybox-->
             <div style="display: none;" id="fancy_crops">
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 fancy_title">
                         INTELLI-CROPS
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-12 col-md-4">
                         <img src="#">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-12 col-md-8">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                </div>
+            </div>
+            
+            <div style="display: none;" id="fancy_security">
+                <div class="row">
+                    <div class="col-sm-12 fancy_title">
+                        SECURITY
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <img src="#">
+                    </div>
+                    <div class="col-sm-12 col-md-8">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                     </div>
                 </div>
             </div>
         
+            <div style="display: none;" id="fancy_ai">
+                <div class="row">
+                    <div class="col-sm-12 fancy_title">
+                        ARTIFICIAL INTELLIGENCE
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <img src="#">
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                </div>
+            </div>
             
+            <div style="display: none;" id="fancy_digital">
+                <div class="row">
+                    <div class="col-sm-12 fancy_title">
+                        DIGITAL DISPLAY
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <img src="#">
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                </div>
+            </div>
             
         </div>
         
@@ -118,9 +171,7 @@
             var instance = $.fancybox.open(
             );
             
-        
         </script>
-        
         
           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -13,6 +13,8 @@
         
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
         
+        <link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.min.css">
+        
         <title>Stark Industries | Innovation</title>
         
     </head>
@@ -62,28 +64,97 @@
             <div class="row">
                 <div class="col-sm-12 innovation_tech">
                     <div class="col-sm-12 sub_title">
-                        TECHNOLOGY DEVELOPMENT
+                        <a data-fancybox data-src="#fancy_tech" href="javascript:;">
+                            TECHNOLOGY DEVELOPMENT
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-12 innovation_project">
                     <div class="col-sm-12 sub_title">
-                        PROJECT FUNDING
+                        <a data-fancybox data-src="#fancy_project" href="javascript:;">
+                            PROJECT FUNDING
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-12 innovation_problem">
                     <div class="col-sm-12 sub_title">
-                        PROBLEM SOLVING
+                        <a data-fancybox data-src="#fancy_problem" href="javascript:;">
+                            PROBLEM SOLVING
+                        </a>
                     </div>
                 </div>
             </div>
+        
+<!--fancybox-->
+        <div style="display: none;" id="fancy_tech">
+            <div class="row">
+                <div class="col-sm-12 fancy_title">
+                    Technology Development
+                </div>
+                </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="#">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                 </div>
+            </div>
+        </div>
+        
+        <div style="display: none;" id="fancy_project">
+            <div class="row">
+                <div class="col-sm-12 fancy_title">
+                    PROJECT FUNDING
+                </div>
+                </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="#">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                 </div>
+            </div>
+        </div>
+        
+        <div style="display: none;" id="fancy_problem">
+            <div class="row">
+                <div class="col-sm-12 fancy_title">
+                    PROBLEM SOLVING
+                </div>
+                </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="#">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                 </div>
+            </div>
+        </div>
             
         
-        
+        <script>
+            var instance = $.fancybox.open(
+            );
+            
+            
+            
+        </script>
         
           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <!-- bootstrap js after jquery -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+	   <script src="/js/jquery.fancybox.min.js"></script>
     
     
     </body>
