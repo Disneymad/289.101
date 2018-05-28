@@ -12,13 +12,13 @@
         <link rel="stylesheet" href="css/style.css">
         
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+        <link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.min.css">
         
         <title>Stark Industries | Products</title>
         
     </head>
     
     <body>
-        
         
         <!--logos-->
             <div class="row logos">
@@ -48,9 +48,10 @@
                 </div>
                 <div class="col-lg-3 d-none d-lg-block d-xl-block menu"></div>
             </div>
+        
+        
+        
         <div class="container">
-            
-
             <!--content-->
             <div class="row">
                 <div class="col-sm-12 products_title">
@@ -64,10 +65,10 @@
                 <div class="col-md-2"></div>
                 <div class="col-sm-12 col-md-10 col-lg-4 product crops">
                     <div class="col-sm-12 product_title">
-                        <a data-fancybox="gallery" href="#">
+                        <a data-fancybox data-src="#fancy_crops" href="javascript:;">
                             INTELLI-CROPS
                         </a>
-                        <div id="fancybox-overlay" style="background-color: rgb(119, 119, 119); opacity: 0.7; cursor: pointer; height: 1756px; display: block;"></div>
+                        
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-10 col-lg-4 product security">
@@ -91,14 +92,42 @@
                 </div>
                 <div class="col-md-2"></div>
             </div>
+            <!--fancybox-->
+            <div style="display: none;" id="fancy_crops">
+                <div class="row">
+                    <div class="col-sm-12">
+                        INTELLI-CROPS
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="#">
+                    </div>
+                    <div class="col-sm-8">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                </div>
+            </div>
+        
+            
+            
+        </div>
+        
+        
+        <script>
+            var instance = $.fancybox.open(
+            );
             
         
-        </div>
+        </script>
+        
         
           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <!-- bootstrap js after jquery -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+	   <script src="/js/jquery.fancybox.min.js"></script>
     
     
     </body>
