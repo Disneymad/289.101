@@ -68,28 +68,72 @@
             <!--FORUM-->
             <div class="forum">
                 <div class="row">
-                <div class="col-sm-12">
-                    <input class="namebox" type="text" placeholder="Full Name*"/> 
+                    <div class="col-sm-12">
+                        <input id="namebox" class="namebox" type="text" placeholder="Full Name*"/> 
+                    </div>
+                    <div class="col-sm-12">
+                        <input id="emailbox" class="emailbox" type="text"placeholder="Email Address*"/>    
+                    </div>
+                    <div class="col-sm-12">
+                        <input id="subjectbox" class="subjectbox" type="text" placeholder="Subject"/>
+                    </div>
+                    <div class="col-sm-12">
+                    <textarea id="messagebox" class="messagebox" placeholder="Message...."></textarea>
+                    </div>
                 </div>
-                <div class="col-sm-12">
-                     <input class="emailbox" type="text"placeholder="Email Address*"/>    
+                
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div id="send_btn">
+                            SEND
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div id="cancel_btn">
+                            CANCEL
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12">
-                    <input class="subjectbox" type="text" placeholder="Subject"/>
-                </div>
-                <div class="col-sm-12">
-                    <textarea class="messagebox" placeholder="Message...."></textarea>
-                </div>
+                
             </div>
-            </div>
+            
+            
             
             
             
         
         </div>
         
+        <script>
+            document.getElementById('send_btn').addEventListener('click', function(){
+               // alert('hello');
+                $('#namebox').val('');
+                $('#emailbox').val('');
+                $('#subjectbox').val('');
+                $('#messagebox').val('');
+                
+                console.log('changes are applied');
+                
+            });
+            
+            document.getElementById('cancel_btn').addEventListener('click', function(){
+               // alert('hello');
+                $('#namebox').val('');
+                $('#emailbox').val('');
+                $('#subjectbox').val('');
+                $('#messagebox').val('');
+                
+                console.log('changes are applied');
+                
+            });
+            
+            
+        
+        </script>
+        
+        
           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <!-- bootstrap js after jquery -->
         <script src="js/bootstrap.min.js"></script>
     

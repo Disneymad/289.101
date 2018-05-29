@@ -42,8 +42,8 @@ a:hover{
 
 .banner{
 /*    note to self resize image*/
-    background-image: url("/img/bannerimage_edit.jpg");
-    height: 600px;
+    background-image: url("/Stark_Industries/img/bannerimage_edit.jpg");
+    height: 450px;
     margin-bottom: 30px;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
@@ -103,7 +103,7 @@ a:hover{
 }
 
 .crops{
-    background-image: url("/img/unsplash-crops-edit.jpg");
+    background-image: url("/Stark_Industries/img/unsplash-crops-edit.jpg");
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
 }
@@ -113,6 +113,7 @@ a:hover{
 }
 
 
+/*
 .fancybox-container:fancy_title{
     background-color: #6EBBFF;
     font-family: 'Roboto', sans-serif;
@@ -120,10 +121,38 @@ a:hover{
     height: 80px;
     font-size: 1.3rem;
     font-style: italic;
+}*/
+
+.fancybox-container {
+    font-family: 'Open Sans', sans-serif;
 }
 
+.fancybox-container>h1{
+    font-family: 'Roboto', sans-serif;    
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+    background-color: #6EBBFF;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;    
+    font-size: 2.2rem;
+    font-style: italic;
+    text-align: center;
+    background-color: #6EBBFF;
+    text-align: center;
+    width: 100%;
+}
+
+.fancybox-content>fancy_title{
+    background-color: #6EBBFF;
+}
+
+
+
 .security{
-    background-image: url("/img/security_edit.jpg");
+    background-image: url("/Stark_Industries/img/security_edit.jpg");
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
 }
@@ -133,13 +162,13 @@ a:hover{
 }
 
 .ai{
-    background-image: url("/img/ai_edit.jpg");
+    background-image: url("/Stark_Industries/img/ai_edit.jpg");
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
 }
 
 .digital_display{
-    background-image: url("/img/digital_display_edit.jpg");
+    background-image: url("/Stark_Industries/img/digital_display_edit.jpg");
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
 }
@@ -158,17 +187,17 @@ a:hover{
 
 .innovation_tech{
     height: 300px;
-    background-image: url("/img/tech_edit.jpg");
+    background-image: url("/Stark_Industries/img/tech_edit.jpg");
 }
 
 .innovation_project{
     height: 300px;
-    background-image: url("/img/project_funding_edit.jpg");
+    background-image: url("/Stark_Industries/img/project_funding_edit.jpg");
 }
 
 .innovation_problem{
     height: 300px;
-    background-image: url("/img/problem_solving_edit.jpg");
+    background-image: url("/Stark_Industries/img/problem_solving_edit.jpg");
 }
 
 .sub_title{
@@ -197,6 +226,10 @@ a:hover{
 .forum{
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+
+.forum>send_btn{
     text-align: center;
 }
 
@@ -240,6 +273,30 @@ a:hover{
     width: 100%;
 }
 
+#send_btn{
+    height: 50px;
+    width: 100%;
+    background-color: lawngreen;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+#cancel_btn{
+    height: 50px;
+    width: 100%;
+    background-color: crimson;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
 /*body { background-color: red }*/
 /*        must be above breakpoints for this to work*/
         #fancy_crops{
@@ -257,6 +314,7 @@ a:hover{
         #fancy_digital{
                 width: 100%
             }
+
 
 
 /* Small devices (landscape phones, 576px and up) */
@@ -311,6 +369,17 @@ a:hover{
             }
             
             .messagebox{
+                width: 60%;
+            }
+            
+            #send_btn{
+                width:  60%;
+            }
+            
+            #cancel_btn{
+                width:  60%;
+            }
+            .fancybox-content>img{
                 width: 60%;
             }
         }
